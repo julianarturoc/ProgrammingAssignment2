@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## this function retrieves the matrix^-1 calculated above
-## since the matrix exists and has not beenchanged
+## since the matrix exists and has not been changed
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
